@@ -5,7 +5,6 @@ def pin():
       correct_pin ="1234"
       while True:
         pin= input("Enter the pin:")
-
         if pin== correct_pin:
             print("Valid pin")
             break
@@ -27,10 +26,8 @@ def game():
                 print("The guess is low... higher number... Try again.")
             elif guess > secret_number:
                 print("The guess is higher... lower number...Try again.")
-            elif guess == secret_number:
-                print(f"Congratulations! You guessed it right. The number was {secret_number}.")
             else:
-                print("Too many attempts try again later")
+                print(f"Congratulations! You guessed it right. The number was {secret_number}.")
                 break   
 game()
 print("Too many attempts try again later") 
