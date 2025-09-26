@@ -3,7 +3,6 @@ def pin():
       print("***Login Credentials***")
       User_id=input("Enter your Userid:")
       correct_pin ="1234"
-      attempts =4 
       while True:
         pin= input("Enter the pin:")
 
